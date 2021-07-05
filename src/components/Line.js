@@ -5,9 +5,10 @@ const Line = (props) => {
 
   return (
     <div className="line">
-      <span>
+      <span className="emoji">
         {symbol}
         {title}
+        <span className="copy">Click to copy !</span>
       </span>
     </div>
   );

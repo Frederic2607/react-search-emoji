@@ -35,7 +35,14 @@
     align-items: center;
     margin-bottom: 10px;
 
-    span {
+    &:hover {
+      cursor: pointer;
+    }
+    &:hover .copy {
+      display: block;
+    }
+
+    .emoji {
       background-color: #fcfbfb;
       font-size: 25px;
       width: 100%;
@@ -43,6 +50,16 @@
       padding-left: 10px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
+
+      &:hover {
+        background-color: #f8efef;
+      }
+    }
+    .copy {
+      display: none;
+      font-size: 18px;
+      background-color: #f8efef;
     }
   }
 

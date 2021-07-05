@@ -14,9 +14,7 @@ function App() {
         {Emojis.filter((item) => {
           if (search === "") {
             return item;
-          } else if (
-            item.keywords.toLowerCase().includes(search.toLowerCase())
-          ) {
+          } else if (item.title.toLowerCase().includes(search.toLowerCase())) {
             return item;
           }
         })
