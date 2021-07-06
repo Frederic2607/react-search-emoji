@@ -9,7 +9,7 @@ const Search = (props) => {
   };
   return (
     <div className="header">
-      <h1>EmojiSearch</h1>
+      <h1>😄 EmojiSearch 😄</h1>
       <input
         type="search"
         placeholder="Search emoji..."
